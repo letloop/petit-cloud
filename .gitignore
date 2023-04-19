@@ -1,0 +1,13 @@
+*.wpo
+*.so
+*.exe
+
+*.ss~
+*.ss#*
+.#*.ss
+
+*.scm~
+*.scm#*
+.#*.scm
+
+local/
