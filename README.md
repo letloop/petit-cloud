@@ -4,6 +4,29 @@
 
 ![](https://unsplash.com/photos/q4TfWtnz_xw/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MzJ8fGNsb3VkJTIwdHJhbnNwYXJlbnQlMjBib3h8ZW58MHx8fHwxNjgxMzgzMTQw&force=true&w=830)
 
+## Quickstart
+
+In a first terminal do:
+
+```shell
+  $ letloop exec petit-cloud-server.scm -- 127.0.0.1 9999
+```
+
+In another terminal:
+
+```shell
+  $ curl http://localhost:9999
+  hello world
+  $ letloop exec petit-cloud.scm -- http://localhost/_/api/v0/ example.scm
+  Please, input the secret: foobar
+  Good! What is done, is not to be done!
+  $ curl http://localhost:9999
+  hello world 1180 from example application
+  $ curl http://localhost:9999
+  hello world 1181 from example application
+  $
+```
+
 ## Kickstart
 
 > ⚠️ 🚧 work in progress, use at your own risks 🚧 ⚠️
