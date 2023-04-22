@@ -6,6 +6,14 @@
 
 ## Quickstart
 
+Install FoundationDB:
+
+```shell
+wget https://github.com/apple/foundationdb/releases/download/7.1.30/foundationdb-clients_7.1.30-1_amd64.deb
+wget https://github.com/apple/foundationdb/releases/download/7.1.30/foundationdb-server_7.1.30-1_amd64.deb
+sudo dpkg -i foundationdb*
+```
+
 In a first terminal do:
 
 ```shell
